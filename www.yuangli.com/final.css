@@ -11,32 +11,26 @@ main {
   background-image: url(../resources/freshmen-excel-bg.jpg);
   background-size: cover;
   padding: 3rem 0;
-  width: 66%;
-  height: 867px;
+  height: 54rem;
   float: left; 
   width: 70%;
-  background-color: #f9f9f9;
 }
 
 aside{
   background-image: url(../resources/black-background-geometric-shapes.jpg);
   float: right; 
-  margin: 0 auto;
   width: 30%;
-  height: 867px;
-	background-color: gray;
+  height: 54rem;
 }
 
 aside h1{
   color: #bbb;
-  font-size: 1rem;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 aside a{
   color: #bbb;
-  font-size: 1rem;
   font-weight: normal;
 }
 
@@ -52,69 +46,61 @@ aside a{
 }
 
 .title-name {
+  font-size: 1.5rem;
   text-shadow: 4px 4px 8px rgba(0,0,0,0.8);
   margin: 0 5rem;
   color: white;
   font-style: serif;
 }
 
-nav {
-  margin-top: 2rem;
+.menu {
+  margin-top: 1rem;
   text-align: center;
 }
-
-nav ul {
+.menu ul {
   margin: 0;
   padding: 0;
 }
-
-nav ul li {
-  margin: 0 2rem;
+.menu ul li {
+  margin: 0;
   list-style: none;
 }
-
-nav ul li a {
-  color: #bbb;
-  font-size: 2rem;
+.menu ul li a {
+  color: white;
+  font-size: 3rem;
   font-weight: normal;
   text-decoration: none;
 }
-
-nav ul li a:hover{
-  color: #444;
+.menu ul li a:hover{
+  color: #bbb;
 }
-
-
 
 .navbar {
   background-color: #853B37;
-  height: 4.69rem; /* 75px */
-
-  /* --------------------- */
+  height: 4.5rem;
   position: absolute;
   z-index: 10;
   top: 50rem;
   left: 0.49rem;
   right: 0.49rem;
-  /* --------------------- */
 }
 
 .navbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
   text-align: right;
 }
 
 .navbar ul li {
   display: inline-block;
+  padding: 0 .7rem;
 }
 
 .navbar ul li a {
+
+  font-size: 2rem;
   color: white;
   padding: 0;
-  text-decoration: none;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .navbar ul li a:hover {
@@ -158,12 +144,11 @@ margin: 119.55rem 0 0 705px;
 
 .featured-projects img {
   max-width: 100%;
-
-  transition: opacity 0.6s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .featured-projects:hover img {
-  opacity: .6;
+  opacity: .7;
 }
 /*
 .featured-project1 figcaption {
@@ -176,6 +161,3 @@ margin: 119.55rem 0 0 705px;
   opacity: 1;
 }
 */
-figure{
-  margin: 0;
-}

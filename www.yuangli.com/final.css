@@ -8,23 +8,22 @@ body {
 img { max-width: 100%; }
 
 main {
-  background-image: url(../downloads/freshmen-excel-bg.jpg);
+  background-image: url(../resources/freshmen-excel-bg.jpg);
   background-size: cover;
   padding: 3rem 0;
   width: 66%;
-  height: 900px;
-
+  height: 867px;
   float: left; 
   width: 70%;
   background-color: #f9f9f9;
 }
 
 aside{
-  background-image: url("https://www.fg-a.com/wallpapers/black-background-geometric-shapes.jpg");
+  background-image: url(../resources/black-background-geometric-shapes.jpg);
   float: right; 
   margin: 0 auto;
   width: 30%;
-  height: 900px;
+  height: 867px;
 	background-color: gray;
 }
 
@@ -85,55 +84,16 @@ nav ul li a:hover{
   color: #444;
 }
 
-.header__social {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-.header__social ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.header__social ul li {
-  display: inline;
-}
-
-main {
-  padding: 4rem 0;
-}
-
-.projects .row {
-  overflow: auto;
-}
-
-.projects .row .col {
-  float: left;
-  width: 33.3%;
-  width: calc(100%/3);
-}
-
-.projects figcaption {
-  color: #444;
-  font-size: 1.5rem;
-  padding: .5rem 0;
-  text-align: center;
-}
-
-.footer {
-  padding-bottom: 2rem;
-  text-align: center;
-}
 
 
 .navbar {
-  background-color: #832f20;
+  background-color: #853B37;
   height: 4.69rem; /* 75px */
 
   /* --------------------- */
-  position: fixed;
-  top: 40rem;
+  position: absolute;
+  z-index: 10;
+  top: 50rem;
   left: 0.49rem;
   right: 0.49rem;
   /* --------------------- */
@@ -159,4 +119,63 @@ main {
 
 .navbar ul li a:hover {
   color: #de4c26;
+}
+
+.featured-project1{
+position: absolute;
+margin: 54rem 0 0 0;
+}
+
+.featured-project2{
+position: absolute;
+margin: 54rem 0 0 705px;
+}
+
+.featured-project3{
+position: absolute;
+margin: 88.375rem 0 0 0;
+}
+
+.featured-project4{
+position: absolute;
+margin: 107.125rem 0 0 0;
+}
+
+.featured-project5{
+position: absolute;
+margin: 139rem 0 0 0;
+}
+
+.featured-project6{
+position: absolute;
+margin: 100.8rem 0 0 705px;
+}
+
+.featured-project7{
+position: absolute;
+margin: 119.55rem 0 0 705px;
+}
+
+.featured-projects img {
+  max-width: 100%;
+
+  transition: opacity 0.6s ease-in-out;
+}
+
+.featured-projects:hover img {
+  opacity: .6;
+}
+/*
+.featured-project1 figcaption {
+  color: black;
+  font-size: 3rem;
+  padding-left: 2rem;
+}
+
+.featured-project1:hover figcaption {
+  opacity: 1;
+}
+*/
+figure{
+  margin: 0;
 }

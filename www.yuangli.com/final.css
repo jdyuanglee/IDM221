@@ -1,0 +1,162 @@
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Rokkitt', serif;
+}
+
+img { max-width: 100%; }
+
+main {
+  background-image: url(../downloads/freshmen-excel-bg.jpg);
+  background-size: cover;
+  padding: 3rem 0;
+  width: 66%;
+  height: 900px;
+
+  float: left; 
+  width: 70%;
+  background-color: #f9f9f9;
+}
+
+aside{
+  background-image: url("https://www.fg-a.com/wallpapers/black-background-geometric-shapes.jpg");
+  float: right; 
+  margin: 0 auto;
+  width: 30%;
+  height: 900px;
+	background-color: gray;
+}
+
+aside h1{
+  color: #bbb;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+aside a{
+  color: #bbb;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.statement{
+  padding: 25% 2rem;
+  text-align: left;
+}
+
+.menu-icon{
+	width: 1.5rem; 
+	height: 1.5rem;
+  margin: 10% 21rem;
+}
+
+.title-name {
+  text-shadow: 4px 4px 8px rgba(0,0,0,0.8);
+  margin: 0 5rem;
+  color: white;
+  font-style: serif;
+}
+
+nav {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 2rem;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #bbb;
+  font-size: 2rem;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #444;
+}
+
+.header__social {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.header__social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__social ul li {
+  display: inline;
+}
+
+main {
+  padding: 4rem 0;
+}
+
+.projects .row {
+  overflow: auto;
+}
+
+.projects .row .col {
+  float: left;
+  width: 33.3%;
+  width: calc(100%/3);
+}
+
+.projects figcaption {
+  color: #444;
+  font-size: 1.5rem;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.footer {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+
+.navbar {
+  background-color: #832f20;
+  height: 4.69rem; /* 75px */
+
+  /* --------------------- */
+  position: fixed;
+  top: 40rem;
+  left: 0.49rem;
+  right: 0.49rem;
+  /* --------------------- */
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar ul li a {
+  color: white;
+  padding: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar ul li a:hover {
+  color: #de4c26;
+}

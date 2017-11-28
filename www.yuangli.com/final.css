@@ -10,7 +10,6 @@ img { max-width: 100%; }
 main {
   background-image: url(../resources/freshmen-excel-bg.jpg);
   background-size: cover;
-  padding: 3rem 0;
   height: 54rem;
   float: left; 
   width: 70%;
@@ -18,7 +17,7 @@ main {
 
 aside{
   background-image: url(../resources/black-background-geometric-shapes.jpg);
-  float: right; 
+  float: left; 
   width: 30%;
   height: 54rem;
 }
@@ -75,14 +74,13 @@ aside a{
   color: #bbb;
 }
 
-.navbar {
+.navbar{
   background-color: #853B37;
-  height: 4.5rem;
-  position: absolute;
-  z-index: 10;
-  top: 50rem;
-  left: 0.49rem;
-  right: 0.49rem;
+  height: 4rem;
+  width: 100%; 
+/*  float: left;*/
+  position: sticky;
+  top: 0;
 }
 
 .navbar ul {
@@ -97,8 +95,7 @@ aside a{
 .navbar ul li a {
 
   font-size: 2rem;
-  color: white;
-  padding: 0;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -107,57 +104,66 @@ aside a{
   color: #de4c26;
 }
 
-.featured-project1{
+.featured-project1 {
 position: absolute;
 margin: 54rem 0 0 0;
+width: 50%;
+height: 100%;
 }
 
-.featured-project2{
+.featured-project2 {
 position: absolute;
 margin: 54rem 0 0 705px;
+width: 50%;
+height: 100%;
 }
 
-.featured-project3{
+.featured-project3 {
 position: absolute;
 margin: 88.375rem 0 0 0;
+width: 50%;
+height: 100%;
 }
 
-.featured-project4{
+.featured-project4 {
 position: absolute;
 margin: 107.125rem 0 0 0;
+width: 50%;
+height: 100%;
 }
 
-.featured-project5{
+.featured-project5 {
 position: absolute;
 margin: 139rem 0 0 0;
+width: 50%;
+height: 100%;
 }
 
-.featured-project6{
+.featured-project6 {
 position: absolute;
 margin: 100.8rem 0 0 705px;
+width: 100%;
+height: 100%;
 }
 
-.featured-project7{
+.featured-project7 {
 position: absolute;
 margin: 119.55rem 0 0 705px;
+width: 100%;
+height: 100%;
 }
 
-.featured-projects img {
+.featured-projects {
   max-width: 100%;
   transition: opacity 0.5s ease-in-out;
 }
 
-.featured-projects:hover img {
+.featured-projects:hover {
   opacity: .7;
 }
-/*
+
 .featured-project1 figcaption {
   color: black;
   font-size: 3rem;
   padding-left: 2rem;
 }
-
-.featured-project1:hover figcaption {
-  opacity: 1;
-}
-*/
